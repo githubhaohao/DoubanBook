@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "cn.haohao.dbbook"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+}
+
+kapt {
+    generateStubs = true
+}
+
+task zipBuild << {
+    println '**********The zip build is successful.********'
+}
+
+dependencies {
+    // Kotlin
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.anko:anko-common:$ankoVersion"
+    compile "org.jetbrains.anko:anko-sdk15:$ankoVersion"
+
+    // Android Library
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:recyclerview-v7:$supportVersion"
+    compile "com.android.support:cardview-v7:$supportVersion"
+    compile "com.android.support:palette-v7:$supportVersion"
+    compile "com.android.support:design:$supportVersion"
+    androidTestCompile "com.android.support:support-annotations:$supportVersion"
+
+    // OkHttp
+    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+    //Retrofit
+    compile("com.squareup.retrofit2:retrofit:$retrofitVersion") {
+        exclude module: 'okhttp'
+    }
+    compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
+
+    //RxJava
+    compile "io.reactivex:rxkotlin:$rxkotlinVersion"
+    compile "io.reactivex:rxandroid:$rxandroidVersion"
+
+    //Dagger
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    compile "com.google.dagger:dagger:$daggerVersion"
+
+    //Circle ImageView
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    //ExpandTextView
+    compile 'com.hymane.expandtextview:library:1.0.2'
+
+    //Fantasy
+    compile 'com.github.mzule.fantasyslide:library:1.0.4'
+
+    //Glide
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    //SearchView
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+
+    //Floating Nav View
+    compile 'com.github.andremion:floatingnavigationview:1.0.1'
+
+    testCompile 'junit:junit:4.12'
+}
