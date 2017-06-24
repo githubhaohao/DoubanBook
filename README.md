@@ -39,6 +39,8 @@ A Douban book app with Kotlin.
 - [stormzhang](http://stormzhang.com/)
 - [吴小龙同學](https://github.com/WuXiaolong)
 - [hymanme](https://github.com/hymanme)
+- [豆瓣](https://www.douban.com)
+
 # 作者博客
 [http://haohaochang.cn/](http://haohaochang.cn/)
 # 联系我
@@ -46,6 +48,4 @@ A Douban book app with Kotlin.
 
 ![Markdown](http://i2.kiimg.com/588795/14b96669d7240b3f.jpg)
 
-微信
 
-![Markdown](http://i4.piimg.com/588795/ba6ffe954d61203b.jpg)
