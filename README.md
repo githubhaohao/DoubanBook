@@ -8,6 +8,9 @@ A Douban book app with Kotlin.
 一个基于 Clean 架构以及 Retrofit ， RxKotlin ， Dagger 框架实现的 [Kotlin](https://github.com/githubhaohao/JavaToKotlin) for Android App 。
  - 使用的数据源来自[豆瓣图书 API ](https://developers.douban.com/wiki/?title=api_v2)
  - UI 设计主要借鉴 [MaterialHome](https://github.com/hymanme/MaterialHome) 项目
+ 
+## APK
+[download apk](https://github.com/githubhaohao/DoubanBook/raw/master/art/app-debug.apk)
 
 ## ScreenShots
 ![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/device-2017-06-24-110458.png?raw=true)
@@ -20,5 +23,23 @@ A Douban book app with Kotlin.
 
 <p align="center"><img src="https://github.com/githubhaohao/DoubanBook/blob/master/art/architecture.png?raw=true"/></p>
 <p align="center">项目框架图</p>
+## Open Source Library 
+使用的开源类库：
 
-
+- [OkHttp3](https://github.com/square/okhttp)
+- [Retrofit2](https://github.com/square/retrofit)
+- [RxKotlin](https://github.com/ReactiveX/RxKotlin)
+- [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+- [Dagger2](https://github.com/square/dagger)
+- [Glide](https://github.com/bumptech/glide)
+- [Kotlin Anko](https://github.com/Kotlin/anko)
+- [Floating-Navigation-View](https://github.com/andremion/Floating-Navigation-View)
+# Thanks
+- [stormzhang](http://stormzhang.com/)
+- [吴小龙同學](https://github.com/WuXiaolong)
+- [hymanme](https://github.com/hymanme)
+# 作者博客
+[http://haohaochang.cn/](http://haohaochang.cn/)
+# 联系我
+微信公众号
+![Markdown](http://i2.kiimg.com/588795/14b96669d7240b3f.jpg)
