@@ -45,3 +45,7 @@ A Douban book app with Kotlin.
 微信公众号
 
 ![Markdown](http://i2.kiimg.com/588795/14b96669d7240b3f.jpg)
+
+微信
+
+![Markdown](http://i4.piimg.com/588795/ba6ffe954d61203b.jpg)
