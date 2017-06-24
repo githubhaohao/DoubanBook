@@ -24,6 +24,7 @@ A Douban book app with Kotlin.
 <p align="center"><img src="https://github.com/githubhaohao/DoubanBook/blob/master/art/architecture.png?raw=true"/></p>
 <p align="center">项目框架图</p>
 ## Open Source Library 
+
 使用的开源类库：
 
 - [OkHttp3](https://github.com/square/okhttp)
@@ -42,4 +43,5 @@ A Douban book app with Kotlin.
 [http://haohaochang.cn/](http://haohaochang.cn/)
 # 联系我
 微信公众号
+
 ![Markdown](http://i2.kiimg.com/588795/14b96669d7240b3f.jpg)
