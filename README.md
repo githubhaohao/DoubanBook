@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/LICENSE.txt)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/githubhaohao/DoubanBook)
+[![sdk](https://img.shields.io/badge/SDK-21+-red.svg)](https://github.com/githubhaohao/DoubanBook)
 
 A Douban book app with Kotlin.
 
