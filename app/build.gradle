@@ -38,9 +38,6 @@ kapt {
     generateStubs = true
 }
 
-task zipBuild << {
-    println '**********The zip build is successful.********'
-}
 
 dependencies {
     // Kotlin
@@ -82,7 +79,7 @@ dependencies {
     compile 'com.hymane.expandtextview:library:1.0.2'
 
     //Fantasy
-    compile 'com.github.mzule.fantasyslide:library:1.0.4'
+    //compile 'com.github.mzule.fantasyslide:library:1.0.4'
 
     //Glide
     compile 'com.github.bumptech.glide:glide:3.6.1'
@@ -92,6 +89,9 @@ dependencies {
 
     //Floating Nav View
     compile 'com.github.andremion:floatingnavigationview:1.0.1'
+
+    //Leakcanary
+    compile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
 
     testCompile 'junit:junit:4.12'
 }
