@@ -11,9 +11,6 @@ A Douban book app with Kotlin.
 一个基于 Clean 架构以及 Retrofit ， RxKotlin ， Dagger 框架实现的 [Kotlin](https://github.com/githubhaohao/JavaToKotlin) for Android App 。
  - 使用的数据源来自[豆瓣图书 API ](https://developers.douban.com/wiki/?title=api_v2)
  - UI 设计主要借鉴 [MaterialHome](https://github.com/hymanme/MaterialHome) 项目，遵循 Material Design 设计风格。
- 
-## APK
-[download apk](https://github.com/githubhaohao/DoubanBook/raw/master/art/app-debug.apk)
 
 ## ScreenShots
 ![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/device-2017-06-24-110458.png?raw=true)
