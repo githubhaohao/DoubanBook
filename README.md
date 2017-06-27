@@ -1,7 +1,6 @@
 # DoubanBook - Kotlin Android
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/LICENSE.txt)
-[![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg?style=flat-square)](https://github.com/githubhaohao/DoubanBook)
 [![sdk](https://img.shields.io/badge/SDK-21+-red.svg)](https://github.com/githubhaohao/DoubanBook)
 [![apk](https://img.shields.io/badge/APK-download-green.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/art/app-debug.apk)
 
