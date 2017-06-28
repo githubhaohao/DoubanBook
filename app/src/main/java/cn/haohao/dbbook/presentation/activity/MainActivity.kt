@@ -60,6 +60,7 @@ class MainActivity : BaseActivity(){
     }
 
     private fun initNavView() {
+        floatingNavView.navigationMenuView.background = getDrawable(R.drawable.bg_nav_menu_view)
         floatingNavView.setOnClickListener {
             floatingNavView.open()
         }

@@ -32,6 +32,12 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
 }
 
 kapt {
@@ -88,7 +94,8 @@ dependencies {
     compile 'com.miguelcatalan:materialsearchview:1.4.0'
 
     //Floating Nav View
-    compile 'com.github.andremion:floatingnavigationview:1.0.1'
+    //compile 'com.github.andremion:floatingnavigationview:1.0.1'
+    compile(name: 'FloatingNavView', ext: 'aar')
 
     //Leakcanary
     compile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
