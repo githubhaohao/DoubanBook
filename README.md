@@ -13,7 +13,11 @@ A Douban book app with Kotlin.
 
 ## ScreenShots
 ![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/device-2017-06-24-110458.png?raw=true)
+![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-34-24-922_cn.haohao.dbbook.png?raw=true)
+![image_b](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-34-46-129_cn.haohao.dbbook.png?raw=true)
+![image_c](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-35-03-669_cn.haohao.dbbook.png?raw=true)
 
+![git_d](https://github.com/githubhaohao/DoubanBook/blob/master/art/gif_d.gif?raw=true)
 ![gif_b](https://github.com/githubhaohao/DoubanBook/blob/master/art/preview_b.gif?raw=true)
 ![gif_c](https://github.com/githubhaohao/DoubanBook/blob/master/art/preview_c.gif?raw=true)
 ## Architecture
