@@ -4,6 +4,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="copy_right">Copyright %1$d haohao</string>
+    <string name="description">一个基于 Google Clean 架构以及 Retrofit2 ， RxKotlin ， Dagger2 框架实现的 Kotlin for Android App 。</string>
+
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
     <string name="search_hint">搜索书名、标签、类别或isbn号</string>

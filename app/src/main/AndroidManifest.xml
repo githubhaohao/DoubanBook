@@ -31,9 +31,12 @@
             android:name=".presentation.activity.BookCommentActivity"
             android:parentActivityName=".presentation.activity.BookDetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".presentation.activity.SearchActivity"
+        <activity
+            android:name=".presentation.activity.SearchActivity"
             android:parentActivityName=".presentation.activity.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".presentation.activity.AboutActivity"
+            android:parentActivityName=".presentation.activity.MainActivity"/>
     </application>
 
 </manifest>

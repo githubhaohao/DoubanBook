@@ -20,7 +20,7 @@ allprojects {
         jcenter()
     }
     ext {
-        supportVersion = "25.3.0"
+        supportVersion = "25.3.1"
         ankoVersion= "0.9.1a"
         daggerVersion = "2.6"
         retrofitVersion = "2.2.0"

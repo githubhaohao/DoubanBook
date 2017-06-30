@@ -16,9 +16,9 @@
     <color name="endColor">#5E35B1</color>
 
     <!--navigation menu view-->
-    <color name="menuStartColor">#625f94</color>
-    <color name="menuCenterColor">#454369</color>
-    <color name="menuEndColor">#6e4bb6</color>
+    <color name="menuStartColor">#a697c6</color>
+    <color name="menuCenterColor">#6e4bb6</color>
+    <color name="menuEndColor">#8a77b1</color>
 
     <!--common color-->
     <color name="white">#FFFFFF</color>

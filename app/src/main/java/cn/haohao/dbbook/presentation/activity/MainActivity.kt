@@ -3,6 +3,7 @@ package cn.haohao.dbbook.presentation.activity
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.os.Handler
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
@@ -64,8 +65,13 @@ class MainActivity : BaseActivity(){
         floatingNavView.setOnClickListener {
             floatingNavView.open()
         }
-        floatingNavView.setNavigationItemSelectedListener {
+        floatingNavView.setNavigationItemSelectedListener { menuItem ->
             floatingNavView.close()
+            if (menuItem.itemId == R.id.nav_about) {
+                Handler().postDelayed({
+                    startActivity(Intent(this, AboutActivity::class.java))
+                }, 300)
+            }
             true
         }
         floatingNavView.backgroundColor = resources.getColor(R.color.colorAccent)
