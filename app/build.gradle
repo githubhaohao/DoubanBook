@@ -84,9 +84,6 @@ dependencies {
     //ExpandTextView
     compile 'com.hymane.expandtextview:library:1.0.2'
 
-    //Fantasy
-    //compile 'com.github.mzule.fantasyslide:library:1.0.4'
-
     //Glide
     compile 'com.github.bumptech.glide:glide:3.6.1'
 
@@ -101,6 +98,9 @@ dependencies {
 
     //About page
     compile 'com.github.medyo:android-about-page:1.2.1'
+
+    //Splash
+    compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
 
     testCompile 'junit:junit:4.12'
 }

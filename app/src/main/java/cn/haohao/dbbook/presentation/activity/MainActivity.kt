@@ -1,5 +1,6 @@
 package cn.haohao.dbbook.presentation.activity
 
+import android.app.Activity
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
