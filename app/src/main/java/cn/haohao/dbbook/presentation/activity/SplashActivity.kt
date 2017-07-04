@@ -1,42 +1,33 @@
 package cn.haohao.dbbook.presentation.activity
 
 import android.content.Intent
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.view.View
 import cn.haohao.dbbook.R
-import com.daimajia.androidanimations.library.Techniques
-import com.viksaa.sssplash.lib.activity.AwesomeSplash
-import com.viksaa.sssplash.lib.cnst.Flags
-import com.viksaa.sssplash.lib.model.ConfigSplash
+import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : AwesomeSplash() {
+class SplashActivity : AppCompatActivity() {
+    private lateinit var mDecorView: View
 
-    override fun initSplash(configSplash: ConfigSplash) {
-        configSplash.backgroundColor = R.color.colorPrimary
-        configSplash.animCircularRevealDuration = 2000
-        configSplash.revealFlagX = Flags.REVEAL_RIGHT
-        configSplash.revealFlagY = Flags.REVEAL_BOTTOM
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        mDecorView = window.decorView
+        mDecorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or
+                View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or
+                View.SYSTEM_UI_FLAG_FULLSCREEN or
+                View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or
+                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+        setContentView(R.layout.activity_splash)
 
-        configSplash.logoSplash = R.drawable.ic_app_splash
-        configSplash.animLogoSplashDuration = 2000
-        configSplash.animLogoSplashTechnique = Techniques.Bounce
+        particleView.setOnParticleAnimListener {
+            val intent = Intent(this@SplashActivity, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+            startActivity(intent)
+            finish()
+        }
 
-        configSplash.pathSplash = ""
-        configSplash.logoSplash = R.drawable.ic_app_splash
-        configSplash.animPathStrokeDrawingDuration = 3000
-        configSplash.pathSplashStrokeSize = 3
-        configSplash.pathSplashStrokeColor = R.color.colorAccent
-        configSplash.animPathFillingDuration = 3000
-        configSplash.pathSplashFillColor = R.color.colorAccent
-
-        configSplash.titleSplash = getString(R.string.app_name)
-        configSplash.titleTextColor = R.color.white
-        configSplash.titleTextSize = 30f
-        configSplash.animTitleDuration = 3000
-        configSplash.animTitleTechnique = Techniques.FadeInDown
-        //configSplash.setTitleFont("fonts/myfont.ttf")
+        particleView.startAnim()
     }
 
-    override fun animationsFinished() {
-        startActivity(Intent(this, MainActivity::class.java))
-        finish()
-    }
 }

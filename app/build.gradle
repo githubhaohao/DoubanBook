@@ -100,7 +100,7 @@ dependencies {
     compile 'com.github.medyo:android-about-page:1.2.1'
 
     //Splash
-    compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+    compile 'me.wangyuwei:ParticleView:1.0.4'
 
     testCompile 'junit:junit:4.12'
 }

@@ -18,7 +18,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io" }
+        maven { url "https://dl.bintray.com/wangyuwei/maven" }
     }
     ext {
         supportVersion = "25.3.1"
