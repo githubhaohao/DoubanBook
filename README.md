@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/LICENSE.txt)
 [![sdk](https://img.shields.io/badge/SDK-21+-red.svg)](https://github.com/githubhaohao/DoubanBook)
-[![apk](https://img.shields.io/badge/APK-download-green.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/art/app-debug.apk)
+[![apk](https://img.shields.io/badge/APK-download-green.svg)](https://github.com/githubhaohao/DoubanBook/raw/master/art/DoubanBook.apk)
 
 A Douban book app with Kotlin.
 
@@ -17,8 +17,6 @@ A Douban book app with Kotlin.
 
 ![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/device-2017-06-24-110458.png?raw=true)
 ![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-34-24-922_cn.haohao.dbbook.png?raw=true)
-![image_b](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-34-46-129_cn.haohao.dbbook.png?raw=true)
-![image_c](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-35-03-669_cn.haohao.dbbook.png?raw=true)
 
 ## Architecture
 <p align="center"><img src="https://github.com/googlesamples/android-architecture/wiki/images/mvp-clean.png"/></p>
