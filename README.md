@@ -37,8 +37,6 @@ A Douban book app with Kotlin.
 - [Kotlin Anko](https://github.com/Kotlin/anko)
 - [Floating-Navigation-View](https://github.com/andremion/Floating-Navigation-View)
 # Thanks
-- [stormzhang](http://stormzhang.com/)
-- [吴小龙同學](https://github.com/WuXiaolong)
 - [hymanme](https://github.com/hymanme)
 - [豆瓣](https://www.douban.com)
 
