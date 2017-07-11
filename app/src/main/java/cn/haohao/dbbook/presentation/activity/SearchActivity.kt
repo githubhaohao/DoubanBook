@@ -122,8 +122,6 @@ class SearchActivity : BaseActivity(), BookListView, SwipeRefreshLayout.OnRefres
                     searchView.setQuery(searchWrd, false)
                 }
             }
-
-            return
         }
         super.onActivityResult(requestCode, resultCode, data)
     }
@@ -151,7 +149,6 @@ class SearchActivity : BaseActivity(), BookListView, SwipeRefreshLayout.OnRefres
                     title = "$query 的搜索结果"
                     initRefresh()
                     onRefresh()
-
                 } else {
                     Snackbar.make(searchView, R.string.keyword_is_empty, Snackbar.LENGTH_SHORT).show()
                 }
@@ -167,7 +164,7 @@ class SearchActivity : BaseActivity(), BookListView, SwipeRefreshLayout.OnRefres
             }
 
             override fun onSearchViewClosed() {
-                finish()
+                //finish()
             }
         })
 

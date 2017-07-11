@@ -34,6 +34,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.animation.GlideAnimation
 import com.bumptech.glide.request.target.SimpleTarget
 import kotlinx.android.synthetic.main.activity_book_detail.*
+import org.jetbrains.anko.backgroundColor
 import javax.inject.Inject
 
 
@@ -197,6 +198,8 @@ class BookDetailActivity : BaseActivity(), BookDetailView, RecommendedBooksView,
                 val darkVibrantColor = palette.getDarkVibrantColor(R.attr.colorPrimary)
                 collapsingToolbarLayout.setContentScrimColor(darkVibrantColor)
                 collapsingToolbarLayout.setStatusBarScrimColor(darkVibrantColor)
+//                val vibrantColor = palette.getDarkVibrantColor(R.attr.colorAccent)
+//                toolbar.setTitleTextColor(vibrantColor)
             }
         }
 

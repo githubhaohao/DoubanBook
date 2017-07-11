@@ -7,10 +7,6 @@ import cn.haohao.dbbook.R
 import mehdi.sakout.aboutpage.AboutPage
 import mehdi.sakout.aboutpage.Element
 import android.support.v7.app.AppCompatDelegate
-import android.content.res.Configuration.UI_MODE_NIGHT_YES
-import android.content.res.Configuration.UI_MODE_NIGHT_NO
-import android.content.res.Configuration.UI_MODE_NIGHT_MASK
-import android.widget.Toast
 import android.view.Gravity
 import cn.haohao.dbbook.presentation.util.showToast
 import java.util.*
@@ -20,7 +16,6 @@ class AboutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //simulateDayNight(0)
         val aboutPage = AboutPage(this)
                 .isRTL(false)
                 .setImage(R.mipmap.ic_avator)

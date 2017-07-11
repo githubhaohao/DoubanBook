@@ -18,7 +18,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         initDagger()
-        LeakCanary.install(this)
+        //LeakCanary.install(this)
     }
 
     fun initDagger() {
