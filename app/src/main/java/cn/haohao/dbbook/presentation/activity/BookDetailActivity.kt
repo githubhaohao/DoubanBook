@@ -54,7 +54,6 @@ class BookDetailActivity : BaseActivity(), BookDetailView, RecommendedBooksView,
     private lateinit var mBookDetailAdapter: BookDetailAdapter
     private lateinit var mReviewsListResponse: BookReviewsListResponse
     private lateinit var mSeriesListResponse: BookSeriesListResponse
-    //private lateinit var recyclerView: RecyclerView
 
     @Inject
     lateinit var mBookDetailPresenter: BookDetailPresenter
@@ -168,7 +167,6 @@ class BookDetailActivity : BaseActivity(), BookDetailView, RecommendedBooksView,
     }
 
     fun initEvents() {
-        //recyclerView = findViewById(R.id.recyclerView) as RecyclerView
         makeStatusBarTransparent()
 
         mSeriesListResponse = BookSeriesListResponse()
@@ -198,8 +196,6 @@ class BookDetailActivity : BaseActivity(), BookDetailView, RecommendedBooksView,
                 val darkVibrantColor = palette.getDarkVibrantColor(R.attr.colorPrimary)
                 collapsingToolbarLayout.setContentScrimColor(darkVibrantColor)
                 collapsingToolbarLayout.setStatusBarScrimColor(darkVibrantColor)
-//                val vibrantColor = palette.getDarkVibrantColor(R.attr.colorAccent)
-//                toolbar.setTitleTextColor(vibrantColor)
             }
         }
 

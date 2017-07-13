@@ -164,7 +164,6 @@ class SearchActivity : BaseActivity(), BookListView, SwipeRefreshLayout.OnRefres
             }
 
             override fun onSearchViewClosed() {
-                //finish()
             }
         })
 
