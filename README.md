@@ -15,9 +15,6 @@ A Douban book app with Kotlin.
 ![git_d](https://github.com/githubhaohao/DoubanBook/blob/master/art/gif_d.gif?raw=true)
 ![gif_b](https://github.com/githubhaohao/DoubanBook/blob/master/art/preview_b.gif?raw=true)
 
-![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/device-2017-06-24-110458.png?raw=true)
-![image_a](https://github.com/githubhaohao/DoubanBook/blob/master/art/Screenshot_2017-06-30-14-34-24-922_cn.haohao.dbbook.png?raw=true)
-
 ## Architecture
 <p align="center"><img src="https://github.com/googlesamples/android-architecture/wiki/images/mvp-clean.png"/></p>
 <p align="center">图片来自 Google</p>
