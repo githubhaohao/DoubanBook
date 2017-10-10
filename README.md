@@ -11,8 +11,6 @@ A Douban book app with Kotlin.
  - 使用的数据源来自[豆瓣图书 API ](https://developers.douban.com/wiki/?title=api_v2)
  - UI 设计主要借鉴 MaterialHome 项目，遵循 Material Design 设计风格。
  
-[另外 MVC MVP MVVM 架构介绍，请戳这里](https://github.com/githubhaohao/MVVMRxJavaRetrofitSample)
-
 ## ScreenShots
 ![git_d](https://github.com/githubhaohao/DoubanBook/blob/master/art/gif_d.gif?raw=true)
 ![gif_b](https://github.com/githubhaohao/DoubanBook/blob/master/art/preview_b.gif?raw=true)
