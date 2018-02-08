@@ -42,7 +42,7 @@ A Douban book app with Kotlin.
 # 联系我
 微信公众号
 
-![Markdown](http://i2.kiimg.com/588795/14b96669d7240b3f.jpg)
+![Markdown](https://github.com/githubhaohao/DoubanBook/blob/master/art/qrcode.jpg?raw=true)
 
 # License
 
