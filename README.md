@@ -37,12 +37,11 @@ A Douban book app with Kotlin.
 - [hymanme](https://github.com/hymanme)
 - [豆瓣](https://www.douban.com)
 
-# 作者博客
-[http://haohaochang.cn/](http://haohaochang.cn/)
+
 # 联系我
 微信公众号
 
-![Markdown](https://github.com/githubhaohao/DoubanBook/blob/master/art/qrcode.jpg?raw=true)
+![Markdown](https://github.com/githubhaohao/LearnFFmpeg/raw/master/doc/wechat_byteflow.png?raw=true)
 
 # License
 
